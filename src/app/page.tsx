@@ -21,7 +21,7 @@ export default async function Home() {
         className="-mx-4 -mt-28 flex min-h-screen w-[calc(100%+2rem)] items-center justify-center bg-cover bg-center text-white md:-mx-6 md:w-[calc(100%+3rem)]"
         style={{
           backgroundImage:
-            "linear-gradient(100deg, rgba(7,10,14,0.92) 0%, rgba(7,10,14,0.66) 45%, rgba(7,10,14,0.5) 100%), url('https://images.unsplash.com/photo-1575936123452-b67c3203c357?auto=format&fit=crop&w=2000&q=80')",
+            "linear-gradient(100deg, rgba(7,10,14,0.92) 0%, rgba(7,10,14,0.66) 45%, rgba(7,10,14,0.5) 100%), url('https://images.unsplash.com/photo-1727524366429-27de8607d5f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bGVhdGhlciUyMGphY2tldHxlbnwwfHwwfHx8MA%3D%3D')",
         }}
       >
         <RevealOnView className="w-full max-w-6xl px-4 py-20 md:px-12 md:py-28">
@@ -154,16 +154,16 @@ export default async function Home() {
       <RevealOnView>
         <section className="rounded-3xl border border-zinc-800 bg-zinc-950 px-4 py-12 md:px-10">
           <div className="mx-auto max-w-3xl text-center">
-          <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-zinc-400">
-            Production Workflow
-          </p>
-          <h2 className="mt-3 text-2xl font-black uppercase tracking-tight text-white md:text-3xl">
-            Precision-Driven Production For Scalable Leather Programs
-          </h2>
-          <p className="mt-4 text-sm leading-6 text-zinc-300">
-            Every order moves through an accountable, factory-controlled process from sourcing
-            to shipment dispatch.
-          </p>
+            <p className="text-[11px] font-bold uppercase tracking-[0.2em] text-zinc-400">
+              Production Workflow
+            </p>
+            <h2 className="mt-3 text-2xl font-black uppercase tracking-tight text-white md:text-3xl">
+              Precision-Driven Production For Scalable Leather Programs
+            </h2>
+            <p className="mt-4 text-sm leading-6 text-zinc-300">
+              Every order moves through an accountable, factory-controlled process from sourcing
+              to shipment dispatch.
+            </p>
           </div>
 
           <div className="mx-auto mt-10 grid max-w-5xl gap-5 md:grid-cols-3">
